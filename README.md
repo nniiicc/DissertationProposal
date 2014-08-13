@@ -5,7 +5,7 @@
 The sustainability of eScience research infrastructures is an increasingly complex problem addressed by science and technology policy. Through a case study of the International Comprehensive Ocean and Atmosphere Dataset (ICOADS) I describe the peer productiong of for sharing and pooling resources across traditional organizational boundaries and the collective action needed to sustain this cooperative arrangement in the face of political, social and economic change. I use this work to support the testing and refinement of an analytical framework. The contribution of this work will be a better understanding of how institutions for collective action evolve, and a framework for reducing the complexity of studying eScience commons.
 
 
-A copy of the dissertation proposal is available in [pdf]() or [html]().
+A copy of the dissertation proposal is available in [pdf](http://bit.ly/1l1i7U5) or [html]().
 
 This repository contains the software, data, images, and documents I used to generate this proposal- and the slides I'll use for the oral defense.
 
