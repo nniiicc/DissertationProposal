@@ -6,11 +6,14 @@ The sustainability of eScience research infrastructures is an increasingly compl
 (ICOADS) I describe a common property regime for sharing and pooling resources across traditional organizational boundaries, and the collective action needed to sustain this arrangement in the face of political, social, and
 economic change. I use this work to support the testing and renement of
 an analytical framework. The contribution of this work will be a better understanding of how institutions for collective action evolve, and a framework for reducing the complexity of studying eScience commons
-<br>
+
+
 A copy of the dissertation proposal is available in [pdf](http://bit.ly/1uMHkln) or [html]().
-<br>
+
+
 This repository contains the software, data, images, and documents I used to generate this proposal- and the slides I'll use for the oral defense.
-<br>
+
+
 Files contain the following content:
 
 + **Study 1** Contains data and scripts from producing the Data Usage Index describe in Chapter 1. 
