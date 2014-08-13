@@ -8,7 +8,7 @@ economic change. I use this work to support the testing and refinement of
 an analytical framework. The contribution of this work will be a better understanding of how institutions for collective action evolve, and a framework for reducing the complexity of studying eScience commons
 
 
-A copy of the dissertation proposal is available in [pdf](http://bit.ly/1uMHkln) or [html]().
+A copy of the dissertation proposal is available in [pdf](https://github.com/nniiicc/DissertationProposal/raw/master/Weber_Proposal_13082014.pdf) or [html]().
 
 
 This repository contains the software, data, images, and documents I used to generate this proposal- and the slides I'll use for the oral defense.
