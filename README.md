@@ -19,7 +19,15 @@ Files contain the following content:
 
 If you spot an error (and there are many to find) in any of this material please consider filing an [issue](https://github.com/nniiicc/DissertationProposal/issues) to let me know. 
 
-All material is under a CC0 license.
+
+
+**Last revised: 12.08.2014**
+
+
+
+
+<br>
+<br>
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
      href="http://creativecommons.org/publicdomain/zero/1.0/">
@@ -37,6 +45,3 @@ This work is published from:
       content="US" about="nicwe.be/dissertationproposal">
   United States</span>.
 </p>
-
-**Last revised: 12.08.2014**
-
