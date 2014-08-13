@@ -1,0 +1,133 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Monday, April 28, 2014 6:37:46 PM Central Daylight Time]
+[!
+>Data file = COADSGCMD.nex
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 424 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        1 character is constant
+>        243 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 180
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = 184110129
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: none
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 0
+>  Score of best tree(s) found = 763
+>  Number of trees retained = 1
+>  Time used = 0.01 sec (CPU time = 0.00 sec)
+]
+	Translate
+		1 coads_1degree,
+		2 EARTH_LAND_NGDC_PALEOCLIM1500AD,
+		3 LDEO_IGOSS_MONITORING,
+		4 SIPEX_II,
+		5 REYNOLDS_MONTHLY_SST,
+		6 SIPEX_II_Algae_Growth_Rates,
+		7 SIPEX_II_Chlorophyll_a,
+		8 SIPEX_II_CO2_Incubations,
+		9 GLOBEC_030_CAN_007,
+		10 CDIAC_HANSEN_TEMPS_TRENDS,
+		11 CDIAC_JONES_TEMPS_TRENDS,
+		12 CDIAC_NDP026A,
+		13 CDIAC_NDP22,
+		14 CDIAC_NDP26,
+		15 circulation_uak,
+		16 CLIMATE_IMAGE_ATLAS,
+		17 COADS_1a,
+		18 coads_2degree,
+		19 COADS_RELEASE1,
+		20 G02184,
+		21 G2085,
+		22 GLOBEC_011_VIBES_001,
+		23 gov_noaa_ncdc_C00067,
+		24 gov_noaa_ncdc_C00242,
+		25 gov_noaa_ncdc_C00276,
+		26 IABP_POLES_2meter,
+		27 IGOSS_TOGA_TAO,
+		28 Indian_Ocean_Dipole,
+		29 JISAO_COADS_REDUCED_SSTSLP,
+		30 JISAO_COADS_SOI_SLP,
+		31 JISAO_COADS_SST_NETCDF,
+		32 JISAO_INDIAN_OCEAN_SST,
+		33 JMA_GSST,
+		34 JMA_WNPSST,
+		35 LDEO_CARTON,
+		36 LDEO_CAYAN,
+		37 LDEO_IGOSS_NMC_MONTHLYANOMSST,
+		38 LDEO_IGOSS_NMC_MONTHLYCLIMSST,
+		39 LDEO_IGOSS_NMC_MONTHLYSST,
+		40 LDEO_IGOSS_NMC_WEEKLYSST,
+		41 LDEO_KAPLAN_COADS_SLP,
+		42 LDEO_SOC,
+		43 LDEO,
+		44 MPI_FLUX,
+		45 NCAR_DS272_0,
+		46 NCAR_DS277_5,
+		47 NCAR_DS285_3,
+		48 NCAR_DS292_0,
+		49 NCAR_DS533_0,
+		50 NCAR_DS540_9,
+		51 NCAR_DS541_0,
+		52 NCAR_DS541_1,
+		53 NCAR_DS541_2,
+		54 NCAR_DS541_3,
+		55 NCAR_SAD1,
+		56 NOAA_ATLAS_SURFACE_MARINE_DATA,
+		57 noaa_cdc005,
+		58 noaa_cdc006,
+		59 noaa_cdc007,
+		60 noaa_cdc008,
+		61 noaa_cdc009,
+		62 noaa_cdc010,
+		63 noaa_cdc050,
+		64 noaa_cdc051,
+		65 NOAA_NWS_CPC_CAR,
+		66 NOAA_NWS_CPC_MEI,
+		67 NOAA_NWS_CPC_NTA,
+		68 NOAA_PMEL_FERRET,
+		69 NOAA_WDCPALEO_CLIM1500_CH13,
+		70 NSIDC_0057,
+		71 Reynolds_Climatology_URI,
+		72 REYNOLDS_RECON_SST,
+		73 REYNSST,
+		74 SAI_JRC_AVHRR_GAC_AFRICA_CLOUD,
+		75 SSTSO,
+		76 WARM_COLD_EVENTS_SHARP,
+		77 NOAA_PSD_TWENTIETH_CENTURY_REANALYSIS,
+		78 JISAO_EQPAC_ZONAL_WIND,
+		79 NCAR_DS132_0,
+		80 PODAAC_REYN2_ERMON,
+		81 PODAAC_REY3B_ERMON,
+		82 NCAR_DS530_1,
+		83 gov_noaa_ncdc_C00606,
+		84 PODAAC_REY3B_ERMOA,
+		85 NCAR_DS256_1,
+		86 NCAR_DS540_6,
+		87 NCAR_DS540_7,
+		88 NCAR_DS540_0,
+		89 NCAR_DS260_3,
+		90 NCAR_DS540_8,
+		91 NCAR_DS256_0,
+		92 NCAR_DS540_1,
+		93 NCAR_DS277_0,
+		94 NCAR_DS287_1,
+		95 NCAR_DS230_0,
+		96 NCAR_DS539_5,
+		97 JISAO_EQPAC_MERIDIONAL_WIND,
+		98 NCAR_DS530_0,
+		99 NCAR_DS271_0
+		;
+tree PAUP_1 = [&U] (1,(((((((((((((2,16),((10,11),13)),((((((((((3,(78,97)),94),(((21,(27,50)),((40,(73,85)),79)),66)),(5,((((((30,41),46),(33,34)),((31,72),(38,47,71))),39),74)),(20,(69,76)),26),((6,8),7),((((9,22),(65,67)),28),54),((32,75,93,99),37),53,95),12),(80,(81,84))),(14,48)),(36,42)),63)),(((((57,58),59,60),61,62),64),77)),((49,87),82)),98),(((((((((((4,24),23),83),(25,89)),70),96),88),92),86),90),91)),45),29),(((15,35),(43,68)),((44,56),(51,52)))),55),19),18),17);
+End;

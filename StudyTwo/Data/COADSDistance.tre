@@ -1,0 +1,191 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=99;
+	taxlabels
+	COADS_1_Degree
+	Climate_Since_AD_1500_Database
+	SIPEXII_Sea_Ice_Physics_and_Ecosystem_eXperiment
+	Indian_Ocean_Dipole
+	LEDO_Climate_Data_Library
+	NOAA_Visualization_and_Extraction_of_Climate_Data
+	Coastal_Gulf_of_Alaska_Circulation_Model
+	LDEO_Global_Ocean_Analysis_Assimilation
+	LDEO_IGOSS_Near_Real-Time_Ocean_Monitoring_Data
+	COADS_JISAO_Reduced_SST_and_SLP_anomalies
+	Equatorial_Pacific_Zonal_Wind_Anomaly_Index
+	Equatorial_Pacific_Meridional_Wind_Anomaly_Index
+	REYNOLDS_MONTHLY_SST
+	NCEP_v2_OI_Global_SST_and_NCDC_v3_SST
+	COADS_NCDC
+	'NOCS_Surface_Flux_Dataset_v2.0'
+	TOGATAO_JAMSTEC_PIRATA_RAMA_Moored_Buoy_Obs
+	Reynolds_Weekly_SST_from_NOAA
+	LDEO_IGOSS_NMC_WEEKLYSST
+	Sea_Surface_Temperature_Southern_Oscillation
+	JISAO_INDIAN_OCEAN_SST
+	COADS-derived_SST_Climatologies_JISAO
+	GFDL_COADS_Global_SST_Analyses
+	Reynolds_Extended_Reconstructed_SST_Analysis
+	LDEO_IGOSS_NMC_MONTHLYANOMSST
+	LDEO_IGOSS_NMC_MONTHLYSST
+	LDEO_IGOSS_NMC_MONTHLYCLIMSST
+	Reynolds_Monthly_Climatology
+	GLOBEC_030_planktonic_ecosystem_model
+	PLUME_Model_of_Southern_Benguel
+	NOAA_Cloud_and_Ocean_Remote_Sensing_Around_Africa
+	SIPEX_II_Algae_Growth_Rates
+	SIPEX_II_CO2_Incubations
+	SIPEX_II_Chlorophyll_a
+	Global_Ocean_Precipitation_Frequency_and_Characteristic
+	JMA_Global_SST_Anom
+	JMA_Western_North_Pacific_SST
+	IGY_57_G02184
+	Monthly_Caribbean_SST_Index_CAR
+	Monthly_North_Tropical_Atlantic_NTA_SST_Index
+	Monthly_Multivariate_ENSO_Index_MEI
+	COADS-based_Southern_Oscillation_Index_JISAO
+	COADS-derived_SLP_Anom_KAPLAN
+	Extended_Reconstructed_Sea_Level_Pressure
+	International_Surface_Pressure_Databank
+	CDIAC_Global_Temp_Anom
+	CDIAC_Global_TempAnom_Land_Marine_Records
+	CDIAC_Temp_Variation
+	CDIAC_Atlas_of_Global_Instrumental_Climate_Data
+	COADS_1_degree_Equatorial_Enhanced
+	COADS_1_degree_Equatorial_Standard
+	COADS_1_degree_Enhanced
+	COADS_1_degree_Standard
+	COADS_2_degree_Enhanced
+	COADS_2_degree_Standard
+	COADS_LTMs
+	NOAA_Physical_Sciences_20th_Century_Reanalysis
+	IABP-POLES_2-Meter_Air_Temperature_Data_Set
+	CDIAC_Climatalogical_Cloud_Subset
+	U_of_Delaware_Precipitation_and_Air_Temperature
+	Reynolds_NCEP_SST_v2
+	Reynolds_NCEP_SST_v3b
+	Reynolds_NCEP_SST_v3b_ascii
+	Kenya_Stable_Isotope_Data
+	LDEO_TOGA-TAO_Quarterly_SST_and_Winds
+	FSUCOAPS_Pacific_and_Indian_Ocean_Wind_Stress
+	COADS-derived_CayanHeat_Flux_LDEO
+	LDEO_Global_Air_Sea_Heat
+	Ocean_atmosphere_heat_momentum_freshwater_flux
+	CDIAC_Climatological_Cloud_Data
+	'Surface_Marine_Observations_(DSI-1127)'
+	'Marine_Surface_Observations_(DSI-1129)'
+	ICOADS_DSI_1173
+	ICOADS_Release_2_4
+	ICOADS_Input_Data_Sources
+	COADS_LMRF_Arctic_Subset
+	Global_and_North_Atlantic_Atlas_of_Monthly_Ocean_Waves
+	Subsurface_Temperature_And_Salinity_Analyses
+	'Warren''s_Global_Climatological_Cloud_Data'
+	NOAA_Climate_Since_AD_1500_Database
+	Warm_and_Cold_Events_and_SocietalEcological_Impacts
+	Miami_Isopycnic_Coordinate_Ocean_Model_Output
+	Sadler_Tropical_Marine_Climatic_Atlas
+	MARMET_marine_surface_observations_from_Russia
+	FSU_COAPS_Research_Vessel_Data
+	VOSCLIM_Met_Office_GTS_data
+	GTS_SEAS_VOSClim_And_GCC_Marine_Surface_Data
+	Marine_Surface_Data_from_NCEP
+	'ICOADS_2.4_Monthly_Summaries'
+	ICOADS_Auxiliary_and_Future_Datasets
+	Canadian_ISDM_Drifting_Buoy_Observations
+	Oberhuber_Global_heat_budget_atlas
+	Atlas_of_Surface_Marine_Data
+	NOAA_Sadler_Tropical_Marine_Climatic_Atlas
+	COADS-derived_Atlas_of_Heat_Flux_and_Radiation_Budget
+	Atlas_of_Surface_Marine_Data_Cdrom
+	COADS_1a
+	coads_2degree
+	COADS_RELEASE1
+;
+end;
+
+begin trees;
+	tree PAUP_1 = [&U] (COADS_1_Degree,(((((Climate_Since_AD_1500_Database,(SIPEXII_Sea_Ice_Physics_and_Ecosystem_eXperiment,(Indian_Ocean_Dipole,LEDO_Climate_Data_Library))),NOAA_Visualization_and_Extraction_of_Climate_Data),(Coastal_Gulf_of_Alaska_Circulation_Model,LDEO_Global_Ocean_Analysis_Assimilation)),((((LDEO_IGOSS_Near_Real-Time_Ocean_Monitoring_Data,COADS_JISAO_Reduced_SST_and_SLP_anomalies),(Equatorial_Pacific_Zonal_Wind_Anomaly_Index,Equatorial_Pacific_Meridional_Wind_Anomaly_Index)),(((((((((REYNOLDS_MONTHLY_SST,NCEP_v2_OI_Global_SST_and_NCDC_v3_SST),((((COADS_NCDC,'NOCS_Surface_Flux_Dataset_v2.0'),TOGATAO_JAMSTEC_PIRATA_RAMA_Moored_Buoy_Obs),Reynolds_Weekly_SST_from_NOAA),LDEO_IGOSS_NMC_WEEKLYSST)),Sea_Surface_Temperature_Southern_Oscillation),JISAO_INDIAN_OCEAN_SST),(((COADS-derived_SST_Climatologies_JISAO,GFDL_COADS_Global_SST_Analyses),Reynolds_Extended_Reconstructed_SST_Analysis),((LDEO_IGOSS_NMC_MONTHLYANOMSST,LDEO_IGOSS_NMC_MONTHLYSST),(LDEO_IGOSS_NMC_MONTHLYCLIMSST,Reynolds_Monthly_Climatology)))),((GLOBEC_030_planktonic_ecosystem_model,PLUME_Model_of_Southern_Benguel),NOAA_Cloud_and_Ocean_Remote_Sensing_Around_Africa)),((((((((SIPEX_II_Algae_Growth_Rates,SIPEX_II_CO2_Incubations),SIPEX_II_Chlorophyll_a),Global_Ocean_Precipitation_Frequency_and_Characteristic),(JMA_Global_SST_Anom,JMA_Western_North_Pacific_SST)),((IGY_57_G02184,(Monthly_Caribbean_SST_Index_CAR,Monthly_North_Tropical_Atlantic_NTA_SST_Index)),Monthly_Multivariate_ENSO_Index_MEI)),(((COADS-based_Southern_Oscillation_Index_JISAO,COADS-derived_SLP_Anom_KAPLAN),Extended_Reconstructed_Sea_Level_Pressure),International_Surface_Pressure_Databank)),((((((CDIAC_Global_Temp_Anom,CDIAC_Global_TempAnom_Land_Marine_Records),CDIAC_Temp_Variation),(CDIAC_Atlas_of_Global_Instrumental_Climate_Data,((((COADS_1_degree_Equatorial_Enhanced[&!color=#-2421487],COADS_1_degree_Equatorial_Standard[&!color=#-2421487])[&!color=#-2421487],((COADS_1_degree_Enhanced[&!color=#-2421487],COADS_1_degree_Standard[&!color=#-2421487])[&!color=#-2421487],(COADS_2_degree_Enhanced[&!color=#-2421487],COADS_2_degree_Standard[&!color=#-2421487])[&!color=#-2421487])[&!color=#-2421487])[&!color=#-2421487],COADS_LTMs[&!color=#-2421487])[&!color=#-2421487],NOAA_Physical_Sciences_20th_Century_Reanalysis))),IABP-POLES_2-Meter_Air_Temperature_Data_Set),((CDIAC_Climatalogical_Cloud_Subset,U_of_Delaware_Precipitation_and_Air_Temperature),(Reynolds_NCEP_SST_v2,(Reynolds_NCEP_SST_v3b,Reynolds_NCEP_SST_v3b_ascii)))),((Kenya_Stable_Isotope_Data,(LDEO_TOGA-TAO_Quarterly_SST_and_Winds,FSUCOAPS_Pacific_and_Indian_Ocean_Wind_Stress)),((COADS-derived_CayanHeat_Flux_LDEO,LDEO_Global_Air_Sea_Heat),Ocean_atmosphere_heat_momentum_freshwater_flux)))),(CDIAC_Climatological_Cloud_Data,((((('Surface_Marine_Observations_(DSI-1127)','Marine_Surface_Observations_(DSI-1129)'),ICOADS_DSI_1173),(ICOADS_Release_2_4,ICOADS_Input_Data_Sources)),COADS_LMRF_Arctic_Subset),Global_and_North_Atlantic_Atlas_of_Monthly_Ocean_Waves)))),(Subsurface_Temperature_And_Salinity_Analyses,(('Warren''s_Global_Climatological_Cloud_Data',(NOAA_Climate_Since_AD_1500_Database,Warm_and_Cold_Events_and_SocietalEcological_Impacts)),Miami_Isopycnic_Coordinate_Ocean_Model_Output))),((Sadler_Tropical_Marine_Climatic_Atlas,((((MARMET_marine_surface_observations_from_Russia,FSU_COAPS_Research_Vessel_Data),VOSCLIM_Met_Office_GTS_data),(((GTS_SEAS_VOSClim_And_GCC_Marine_Surface_Data,Marine_Surface_Data_from_NCEP),'ICOADS_2.4_Monthly_Summaries'),ICOADS_Auxiliary_and_Future_Datasets)),Canadian_ISDM_Drifting_Buoy_Observations)),(Oberhuber_Global_heat_budget_atlas,Atlas_of_Surface_Marine_Data)))),NOAA_Sadler_Tropical_Marine_Climatic_Atlas)),(COADS-derived_Atlas_of_Heat_Flux_and_Radiation_Budget,Atlas_of_Surface_Marine_Data_Cdrom)),((COADS_1a[&!color=#-16158247],coads_2degree[&!color=#-16158247])[&!color=#-16158247],COADS_RELEASE1[&!color=#-16158247])[&!color=#-16158247]);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Abadi MT Condensed Extra Bold";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RADIAL";
+	set layout.zoom=406;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Abadi MT Condensed Extra Bold";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=5244;
+	set rectilinearLayout.rootLength=0;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Abadi MT Condensed Extra Bold";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

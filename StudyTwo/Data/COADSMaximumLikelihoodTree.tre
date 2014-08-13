@@ -1,0 +1,191 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=99;
+	taxlabels
+ coads_1degree 
+ EARTH_LAND_NGDC_PALEOCLIM1500AD 
+ LDEO_IGOSS_MONITORING 
+ SIPEX_II 
+ REYNOLDS_MONTHLY_SST 
+ SIPEX_II_Algae_Growth_Rates 
+ SIPEX_II_Chlorophyll_a 
+ SIPEX_II_CO2_Incubations 
+ GLOBEC_030_CAN_007 
+ CDIAC_HANSEN_TEMPS_TRENDS 
+ CDIAC_JONES_TEMPS_TRENDS 
+ CDIAC_NDP026A 
+ CDIAC_NDP22 
+ CDIAC_NDP26 
+ circulation_uak 
+ CLIMATE_IMAGE_ATLAS 
+ COADS_1a 
+ coads_2degree 
+ COADS_RELEASE1 
+ G02184 
+ G2085 
+ GLOBEC_011_VIBES_001 
+ gov_noaa_ncdc_C00067 
+ gov_noaa_ncdc_C00242 
+ gov_noaa_ncdc_C00276 
+ IABP_POLES_2meter 
+ IGOSS_TOGA_TAO 
+ Indian_Ocean_Dipole 
+ JISAO_COADS_REDUCED_SSTSLP 
+ JISAO_COADS_SOI_SLP 
+ JISAO_COADS_SST_NETCDF 
+ JISAO_INDIAN_OCEAN_SST 
+ JMA_GSST 
+ JMA_WNPSST 
+ LDEO_CARTON 
+ LDEO_CAYAN 
+ LDEO_IGOSS_NMC_MONTHLYANOMSST 
+ LDEO_IGOSS_NMC_MONTHLYCLIMSST 
+ LDEO_IGOSS_NMC_MONTHLYSST 
+ LDEO_IGOSS_NMC_WEEKLYSST 
+ LDEO_KAPLAN_COADS_SLP 
+ LDEO_SOC 
+ LDEO 
+ MPI_FLUX 
+ NCAR_DS272_0 
+ NCAR_DS277_5 
+ NCAR_DS285_3 
+ NCAR_DS292_0 
+ NCAR_DS533_0 
+ NCAR_DS540_9 
+ NCAR_DS541_0 
+ NCAR_DS541_1 
+ NCAR_DS541_2 
+ NCAR_DS541_3 
+ NCAR_SAD1 
+ NOAA_ATLAS_SURFACE_MARINE_DATA 
+ noaa_cdc005 
+ noaa_cdc006 
+ noaa_cdc007 
+ noaa_cdc008 
+ noaa_cdc009 
+ noaa_cdc010 
+ noaa_cdc050 
+ noaa_cdc051 
+ NOAA_NWS_CPC_CAR 
+ NOAA_NWS_CPC_MEI 
+ NOAA_NWS_CPC_NTA 
+ NOAA_PMEL_FERRET 
+ NOAA_WDCPALEO_CLIM1500_CH13 
+ NSIDC-0057 
+ Reynolds_Climatology_URI 
+ REYNOLDS_RECON_SST 
+ REYNSST 
+ SAI_JRC-AVHRR_GAC_AFRICA_CLOUD 
+ SSTSO 
+ WARM_COLD_EVENTS_SHARP 
+ NOAA_PSD_TWENTIETH_CENTURY_REANALYSIS 
+ JISAO_EQPAC_ZONAL_WIND 
+ NCAR_DS132_0 
+ PODAAC-REYN2-ERMON 
+ PODAAC-REY3B-ERMON 
+ NCAR_DS530_1 
+ gov_noaa_ncdc_C00606 
+ PODAAC-REY3B-ERMOA 
+ NCAR_DS256_1 
+ NCAR_DS540_6 
+ NCAR_DS540_7 
+ NCAR_DS540_0 
+ NCAR_DS260_3 
+ NCAR_DS540_8 
+ NCAR_DS256_0 
+ NCAR_DS540_1 
+ NCAR_DS277_0 
+ NCAR_DS287_1 
+ NCAR_DS230_0 
+ NCAR_DS539_5 
+ JISAO_EQPAC_MERIDIONAL_WIND 
+ NCAR_DS530_0 
+ NCAR_DS271_0 
+;
+end;
+
+begin trees;
+	tree PAUP_1 = [&U] (COADS_1_Degree[&!rotate=true,!color=#-14467162],((((((((((((((((((Climate_Since_AD_1500_Database[&!rotate=true,!color=#-5872889],CDIAC_Atlas_of_Global_Instrumental_Climate_Data[&!rotate=true,!color=#-5872889])[&!rotate=true,!color=#-5872889],((CDIAC_Global_Temp_Anom[&!rotate=true,!color=#-5872889],CDIAC_Global_TempAnom_Land_Marine_Records[&!rotate=true,!color=#-5872889])[&!rotate=true,!color=#-5872889],CDIAC_Temp_Variation[&!rotate=true,!color=#-5872889])[&!rotate=true,!color=#-5872889])[&!rotate=true,!color=#-5872889],((((((((REYNOLDS_MONTHLY_SST[&!color=#-13392329,!rotate=true],((COADS_NCDC[&!color=#-13392329,!rotate=true],'NOCS_Surface_Flux_Dataset_v2.0'[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],TOGATAO_JAMSTEC_PIRATA_RAMA_Moored_Buoy_Obs[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],Reynolds_Weekly_SST_from_NOAA[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],LDEO_IGOSS_NMC_WEEKLYSST[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],LDEO_IGOSS_NMC_MONTHLYANOMSST[&!color=#-13392329,!rotate=true],LDEO_IGOSS_NMC_MONTHLYSST[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],Subsurface_Temperature_And_Salinity_Analyses[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],LDEO_IGOSS_NMC_MONTHLYCLIMSST[&!color=#-13392329,!rotate=true],Reynolds_Monthly_Climatology[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],COADS-derived_SST_Climatologies_JISAO[&!color=#-13392329,!rotate=true],Reynolds_Extended_Reconstructed_SST_Analysis[&!color=#-13392329,!rotate=true],GFDL_COADS_Global_SST_Analyses[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],NCEP_v2_OI_Global_SST_and_NCDC_v3_SST[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],NOAA_Cloud_and_Ocean_Remote_Sensing_Around_Africa[&!color=#-13392329,!rotate=true])[&!color=#-13392329,!rotate=true],JISAO_INDIAN_OCEAN_SST[&!rotate=true],Sea_Surface_Temperature_Southern_Oscillation[&!rotate=true])[&!rotate=true],((COADS-based_Southern_Oscillation_Index_JISAO[&!rotate=true,!color=#-7334746],COADS-derived_SLP_Anom_KAPLAN[&!rotate=true,!color=#-7334746])[&!rotate=true,!color=#-7334746],Extended_Reconstructed_Sea_Level_Pressure[&!rotate=true,!color=#-7334746],(((((COADS_1_degree_Equatorial_Enhanced[&!color=#-7334746],COADS_1_degree_Equatorial_Standard[&!color=#-7334746])[&!color=#-7334746],COADS_1_degree_Enhanced[&!color=#-7334746],COADS_1_degree_Standard[&!color=#-7334746])[&!color=#-7334746],COADS_2_degree_Enhanced[&!color=#-7334746],COADS_2_degree_Standard[&!color=#-7334746])[&!color=#-7334746],(COADS_LTMs[&!color=#-7334746],NOAA_Physical_Sciences_20th_Century_Reanalysis[&!color=#-7334746])[&!color=#-7334746])[&!color=#-7334746],International_Surface_Pressure_Databank[&!color=#-7334746])[&!rotate=false,!color=#-7334746])[&!rotate=false,!color=#-7334746]),Kenya_Stable_Isotope_Data),(((LDEO_IGOSS_Near_Real-Time_Ocean_Monitoring_Data,LDEO_TOGA-TAO_Quarterly_SST_and_Winds),((CDIAC_Climatalogical_Cloud_Subset,U_of_Delaware_Precipitation_and_Air_Temperature),(LDEO_Global_Air_Sea_Heat,Ocean_atmosphere_heat_momentum_freshwater_flux),(Reynolds_NCEP_SST_v2[&!color=#-5894370],Reynolds_NCEP_SST_v3b[&!color=#-5894370],Reynolds_NCEP_SST_v3b_ascii[&!color=#-5894370])[&!color=#-5894370]),IABP-POLES_2-Meter_Air_Temperature_Data_Set,((NOAA_Climate_Since_AD_1500_Database[&!rotate=false],Warm_and_Cold_Events_and_SocietalEcological_Impacts[&!rotate=false])[&!rotate=false],Miami_Isopycnic_Coordinate_Ocean_Model_Output[&!rotate=false])[&!rotate=false],FSUCOAPS_Pacific_and_Indian_Ocean_Wind_Stress),Global_Ocean_Precipitation_Frequency_and_Characteristic)),IGY_57_G02184),(GLOBEC_030_planktonic_ecosystem_model,PLUME_Model_of_Southern_Benguel),Global_and_North_Atlantic_Atlas_of_Monthly_Ocean_Waves,(Monthly_Caribbean_SST_Index_CAR,Monthly_North_Tropical_Atlantic_NTA_SST_Index)),(SIPEXII_Sea_Ice_Physics_and_Ecosystem_eXperiment[&!color=#-1020370],(SIPEX_II_Algae_Growth_Rates[&!color=#-1020370],SIPEX_II_CO2_Incubations[&!color=#-1020370])[&!color=#-1020370],SIPEX_II_Chlorophyll_a[&!color=#-1020370])[&!color=#-1020370]),(CDIAC_Climatological_Cloud_Data,'Warren''s_Global_Climatological_Cloud_Data'),COADS-derived_CayanHeat_Flux_LDEO,Monthly_Multivariate_ENSO_Index_MEI),(JMA_Global_SST_Anom,JMA_Western_North_Pacific_SST)),(Equatorial_Pacific_Zonal_Wind_Anomaly_Index,Equatorial_Pacific_Meridional_Wind_Anomaly_Index)),COADS_JISAO_Reduced_SST_and_SLP_anomalies),(((((((((('Surface_Marine_Observations_(DSI-1127)'[&!color=#-5758178],'Marine_Surface_Observations_(DSI-1129)'[&!color=#-5758178])[&!color=#-5758178],ICOADS_DSI_1173[&!color=#-5758178])[&!color=#-5758178],COADS_LMRF_Arctic_Subset[&!color=#-5758178])[&!color=#-5758178],(Indian_Ocean_Dipole[&!color=#-5758178],ICOADS_Input_Data_Sources[&!color=#-5758178])[&!color=#-5758178])[&!color=#-5758178],ICOADS_Release_2_4[&!color=#-5758178])[&!color=#-5758178],'ICOADS_2.4_Monthly_Summaries'[&!color=#-5758178])[&!color=#-5758178],GTS_SEAS_VOSClim_And_GCC_Marine_Surface_Data[&!color=#-5758178],Marine_Surface_Data_from_NCEP[&!color=#-5758178])[&!color=#-5758178],(Canadian_ISDM_Drifting_Buoy_Observations[&!color=#-5758178],ICOADS_Auxiliary_and_Future_Datasets[&!color=#-5758178])[&!color=#-5758178])[&!color=#-5758178],VOSCLIM_Met_Office_GTS_data[&!color=#-5758178])[&!color=#-5758178],MARMET_marine_surface_observations_from_Russia[&!color=#-5758178],FSU_COAPS_Research_Vessel_Data[&!color=#-5758178])[&!color=#-5758178],((((LEDO_Climate_Data_Library[&!color=#-1047552],Atlas_of_Surface_Marine_Data_Cdrom[&!color=#-1047552])[&!color=#-1047552],COADS-derived_Atlas_of_Heat_Flux_and_Radiation_Budget[&!color=#-1047552])[&!color=#-1047552],Oberhuber_Global_heat_budget_atlas[&!color=#-1047552])[&!color=#-1047552],Atlas_of_Surface_Marine_Data[&!color=#-1047552])[&!color=#-1047552]),Sadler_Tropical_Marine_Climatic_Atlas),((Coastal_Gulf_of_Alaska_Circulation_Model,LDEO_Global_Ocean_Analysis_Assimilation),NOAA_Visualization_and_Extraction_of_Climate_Data))[&!rotate=false],NOAA_Sadler_Tropical_Marine_Climatic_Atlas)[&!rotate=true,!color=#-14467162],coads_2degree[&!rotate=false,!color=#-14467162])[&!rotate=false,!color=#-14467162],(COADS_1a[&!rotate=true,!color=#-14467162],COADS_RELEASE1[&!rotate=true,!color=#-14467162])[&!rotate=true,!color=#-14467162]);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Abadi MT Condensed Extra Bold";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=10;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Abadi MT Condensed Extra Bold";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=3293;
+	set rectilinearLayout.rootLength=0;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Abadi MT Condensed Extra Bold";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
