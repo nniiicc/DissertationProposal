@@ -17,7 +17,7 @@ This repository contains the software, data, images, and documents I used to gen
 Files contain the following content:
 
 + **Study 1** Contains data and scripts from producing the Data Usage Index describe in Chapter 1. 
-+ **Study 2** Contains data, code and images for producing the Phylogenetic trees in the Genealogy study described in Chapter 1. This is mostly the work and insight of Andrea Thomer  [@an_dre_a_](https://twitter.com/an_dre_a_)
++ **Study 2** Contains data, code and images for producing the Phylogenetic trees in the Genealogy study described in Chapter 1. This is mostly the work and insight of Andrea Thomer  [(@an_dre_a_)](https://twitter.com/an_dre_a_)
 + **ProposalDocument** contains the LaTex template and the images used to produce the actual proposal
 + **Study Protocol** has drafts of the protocol I developed to conduct the case study (Final draft to be uploaded very soon)
 + **SupportingBibliometricsData** contains network data, text files from ISI, and some preliminary images. This work is referred to in a few different places in the proposal, but described at length. 
