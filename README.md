@@ -20,9 +20,12 @@ Files contain the following content:
 + **Study 2** Contains data, code and images for producing the Phylogenetic trees in the Genealogy study described in Chapter 1. This is mostly the work and insight of Andrea Thomer  [(@an_dre_a_)](https://twitter.com/an_dre_a_)
 + **ProposalDocument** contains the LaTex template and the images used to produce the actual proposal
 + **Study Protocol** has drafts of the protocol I developed to conduct the case study (Final draft to be uploaded very soon)
-+ **SupportingBibliometricsData** contains network data, text files from ISI, and some preliminary images. This work is referred to in a few different places in the proposal, but described at length. 
++ **SupportingBibliometricsData** contains network data, text files from ISI, and some preliminary images. This work is referred to in a few different places in the proposal, but not described at length. 
 
-If you spot an error (and there will be many) please consider filing an [issue](https://github.com/nniiicc/DissertationProposal/issues) to let me know. 
+
+*If you spot an error (and there will be many) please consider filing an [issue](https://github.com/nniiicc/DissertationProposal/issues) to let me know. 
+
+-[@nniiicc](https://twitter.com/nniiicc)
 
 
 
