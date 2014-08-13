@@ -17,7 +17,7 @@ Files contain the following content:
 + **Study Protocol** has drafts of the protocol I developed to conduct the case study (Final draft to be uploaded very soon)
 + **SupportingBibliometricsData** contains network data, text files from ISI, and some preliminary images. This work is referred to in a few different places in the proposal, but described at length. 
 
-If you spot an error (and there are many to find) in any of this material please consider filing an [issue](https://github.com/nniiicc/DissertationProposal/issues) to let me know. 
+If you spot an error (and there will be many) please consider filing an [issue](https://github.com/nniiicc/DissertationProposal/issues) to let me know. 
 
 
 
