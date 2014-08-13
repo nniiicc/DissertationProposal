@@ -4,7 +4,7 @@
 
 The sustainability of eScience research infrastructures is an increasingly complex problem addressed by science and technology policy. Through a case study of the International Comprehensive Ocean and Atmosphere Dataset
 (ICOADS) I describe a common property regime for sharing and pooling resources across traditional organizational boundaries, and the collective action needed to sustain this arrangement in the face of political, social, and
-economic change. I use this work to support the testing and renement of
+economic change. I use this work to support the testing and refinement of
 an analytical framework. The contribution of this work will be a better understanding of how institutions for collective action evolve, and a framework for reducing the complexity of studying eScience commons
 
 
